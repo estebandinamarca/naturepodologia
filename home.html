@@ -144,14 +144,15 @@
 			ul { margin: 0; }
 			ul li { font-size: 17px; margin: 15px; }
 			a.wzap { width: 100%; }
-			.hidden-mobile { display: none; }
-			.show-mobile { display: inline-block; }
 			.toCenter span {
 				width: 80%;
 				display: block;
 				margin: 40px auto;
 				min-height: auto;
 			}
+
+			a.hidden-mobile { display: none!important; }
+			a.show-mobile { display: inline-block!important; }
 		}
 
 		/* Medium devices (tablets, less than 992px) */
@@ -168,8 +169,8 @@
 			<img src="./img/nature_podologia_logo.svg" title="Nature Podología Clínica" alt="Nature Podología">
 		</div>
 		<div class="headerArea headerRight text-right">
-			<a href="tel:+56988044756" class="btn wzap hidden-mobile"><span class="socicon-whatsapp"></span> +56 9 88044756</a>
-			<!-- <a href="https://www.facebook.com/messages/t/naturepodologia" class="btn fb"><span class="socicon-messenger"></span> Enviar mensaje</a> -->
+			<a href="tel:+56988044756" class="btn wzap"><span class="socicon-whatsapp"></span> +56 9 88044756</a>
+			<a href="https://www.facebook.com/messages/t/naturepodologia" class="btn fb hidden-mobile"><span class="socicon-messenger"></span> Enviar mensaje</a>
 			<a href="fb://naturepodologia" class="btn fb show-mobile"><span class="socicon-messenger"></span> Enviar mensaje</a>
 		</div>
 	</header>
